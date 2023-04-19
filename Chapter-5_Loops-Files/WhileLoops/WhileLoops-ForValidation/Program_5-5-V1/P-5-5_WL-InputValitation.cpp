@@ -24,7 +24,7 @@ int main()
     while (teamPlayers < MIN_PLAYERS || teamPlayers > MAX_PLAYERS)
     {
         // Explain the error. 
-        cout << "You should have at least "<< MIN_PLAYERS << "but no more than " << MAX_PLAYERS << " per team.\n";
+        cout << "You should have at least "<< MIN_PLAYERS << "but no more than " << MAX_PLAYERS << " per team.\n";  
 
         // Get the input again.
         cout << "How many players do you wish per team? ";
